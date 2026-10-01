@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: black;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    color: white;
+    padding: 2rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    
+}
+
+nav ul li a:visited {
+    color: white;
+}
+
+nav ul li a:hover {
+    color: blue;
+}
+
+
+main {
+    max-width: 100%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.features {
+    display: flex;
+    gap: 16px;
+}
+
+.features li {
+    border: 1px black solid;
+    min-width: 10rem;
+    padding: 0.4rem;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #333;
+    padding: 12px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+input, textarea {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+@media (max-width: 600px) {
+    .features {
+        flex-direction: column;
+    }
+}
