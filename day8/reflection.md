@@ -1,0 +1,7 @@
+# Course Reflection
+
+Looking back at this course, the most difficult concept for me to grasp was asynchronous JavaScript, particularly managing the flow of data using Promises and `async/await`. Moving from synchronous code—where everything happens sequentially—to a model where the application continues running while waiting for network requests was a significant paradigm shift. I overcame this by heavily practicing API calls in isolation, writing out the `try`, `catch`, and `finally` blocks repeatedly, and using `console.log` at every stage to visualize exactly when the data was arriving versus when the UI was rendering.
+
+Based on the feedback I received on my capstone project, the main area I want to improve is my application's component reusability and file structure. While my code worked functionally, I ended up repeating a lot of similar DOM manipulation logic and CSS styles. In my next iteration, I plan to refactor the code to create dedicated helper functions for UI rendering and extract modular CSS classes, making the project much more scalable and easier to read.
+
+Moving forward, I am excited to learn modern frontend frameworks, specifically React. I want to understand how virtual DOMs manage state more efficiently than my manual `document.createElement` approaches, and I look forward to building larger, more reactive single-page applications.
